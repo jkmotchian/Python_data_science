@@ -8,22 +8,22 @@ Les notions essentielles abordées pour avoir les bases en utilisation de NumPy 
 import numpy as np <br>
 
 NumPy permet de manipuler un array(ou tableau) qui stocke de même type (int, float, booléan, chaîne de charactère). sur ces tableaux il est possible de manipulation à travers l'utilisation des fonctions et des propriétés. <br>
-Il est possible de les générer et de les indexer 
+Il est possible de les générer et de les indexer <br>
 
--liste[1,2,3,2]: transformation de list en array np.array(liste)
--np.arange(5) # création de array
--np.arange(8).reshape(2,4) : deux lignes et 4 colonnes
--np.ones(2)
--np.zero(2)
--np.eye(5)
--np.random.rand(a,b,c)
--np.random.randint(a,b,c)
--soit arr un array: arr[arr>4]
--arr.max()
--arr.min()
--arr.sin()
--arr.std()
--arr.sum(axis=0)
--arr[ : ] indexation
--arr[ : , : ]
--arr.linspace[ : ]
+-liste[1,2,3,2]: transformation de list en array np.array(liste) <br>
+-np.arange(5) # création de array <br>
+-np.arange(8).reshape(2,4) : deux lignes et 4 colonnes <br>
+-np.ones(2) <br>
+-np.zero(2) <br>
+-np.eye(5) <br>
+-np.random.rand(a,b,c) <br>
+-np.random.randint(a,b,c) <br>
+-soit arr un array: arr[arr>4] <br>
+-arr.max() <br>
+-arr.min() <br>
+-arr.sin() <br>
+-arr.std() <br>
+-arr.sum(axis=0) <br>
+-arr[ : ] indexation <br>
+-arr[ : , : ] <br>
+-arr.linspace[ : ] <br>
